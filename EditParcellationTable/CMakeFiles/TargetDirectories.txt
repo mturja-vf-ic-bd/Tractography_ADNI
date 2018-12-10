@@ -1,0 +1,3 @@
+/home/turja/Desktop/EditParcellationTable/CMakeFiles/rebuild_cache.dir
+/home/turja/Desktop/EditParcellationTable/CMakeFiles/EditParcellationTable.dir
+/home/turja/Desktop/EditParcellationTable/CMakeFiles/edit_cache.dir
