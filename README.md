@@ -13,4 +13,5 @@ Add image here
 
 ```git clone https://github.com/mturja-vf-ic-bd/Tractography_ADNI.git
    cd Tractography_ADNI
-   ./run_pipeline.sh <subject_dir> <debug>```
+   ./run_pipeline.sh <subject_dir> <debug>
+```
