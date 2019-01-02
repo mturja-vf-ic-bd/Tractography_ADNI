@@ -8,7 +8,7 @@ Parcellation Table is generated for each subject with proper coordinate for each
 To run the tractography, ```bedpostx``` and ```probtrackx2``` (from FSL) is run on each subject consecutively.
 
 ## Input
-To run this pipeline, each subject must have the following files in the same directory:
+To run this pipeline, each subject must have a directory named ```DTI``` and the following files in the ```DTI``` directory:
 
 * DWI (ex. S100790_DWI.nrrd)
 * T1 (ex. S100790_T1_regDTI.nrrd)
