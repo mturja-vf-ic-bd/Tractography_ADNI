@@ -30,7 +30,9 @@ The output of the pipeline is a 148 x 148 connectivity matrix. However, It also 
 The connectivity matrix is named ```fdt_network_matrix``` and it resides in ```Network_overlapping_loopcheck_3000_0```
 
 ## Dependencies
-* VTK
+* VTK 
+  - To install VTK, follow this link: https://www.vtk.org/Wiki/VTK/Building/Linux
+  - add the ```bin``` and ```lib``` folder in the ```PATH``` and ```LD_LIBRARY_PATH``` environmental variable
 * FSL (bedpostx and probtractx)
 * dtiprep
 
