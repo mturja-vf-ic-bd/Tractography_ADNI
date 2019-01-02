@@ -29,7 +29,8 @@ The output of the pipeline is a 148 x 148 connectivity matrix. However, It also 
 The connectivity matrix is named ```fdt_network_matrix``` and it resides in ```Network_overlapping_loopcheck_3000_0```
 
 ## Tools
-1. FSL (bedpostx and probtractx)
+* FSL (bedpostx and probtractx)
+* dtiprep
 
 ## Pipeline Overview
 Add image here
