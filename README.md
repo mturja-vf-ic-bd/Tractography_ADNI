@@ -35,6 +35,7 @@ The connectivity matrix is named ```fdt_network_matrix``` and it resides in ```N
 * VTK 
   - To install VTK, follow this link: https://www.vtk.org/Wiki/VTK/Building/Linux
   - add the ```bin``` and ```lib``` folder in the ```PATH``` and ```LD_LIBRARY_PATH``` environmental variable
+  - I used VTK-8.1.2
 * FSL (bedpostx and probtractx)
 * dtiprep
 
