@@ -13,7 +13,8 @@ To run this pipeline, each subject must have a directory named ```DTI``` and the
 * DWI (ex. S100790_DWI.nrrd)
 * T1 (ex. S100790_T1_regDTI.nrrd)
 * Brain mask (ex. S100790_resampled_brain_mask.nrrd)
-* Parcellated surface file (combined.InnerSurface_relabeled.vtk)
+* lh.white_labeled.vtk
+* rh.white_labeled.vtk
 * Parcellation Table (parcellationTable.json)
 
 ## Output
