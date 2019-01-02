@@ -10,10 +10,10 @@ To run the tractography, ```bedpostx``` and ```probtrackx2``` (from FSL) is run 
 ## Input
 To run this pipeline, each subject must have the following files in the same directory:
 1. DWI (ex. S100790_DWI.nrrd)
-         2. T1 (ex. S100790_T1_regDTI.nrrd)
-         3. Brain mask (ex. S100790_resampled_brain_mask.nrrd)
-         4. Parcellated surface file (combined.InnerSurface_relabeled.vtk)
-         5. Parcellation Table (parcellationTable.json)
+2. T1 (ex. S100790_T1_regDTI.nrrd)
+3. Brain mask (ex. S100790_resampled_brain_mask.nrrd)
+4. Parcellated surface file (combined.InnerSurface_relabeled.vtk)
+5. Parcellation Table (parcellationTable.json)
          
 ## Output
 The output of the pipeline is a 148 x 148 connectivity matrix. However, It also generates lots of intermediate files. For each subject the pipeline will create a folder and the folder will contain the following files:
