@@ -7,6 +7,7 @@ sub_dir = sys.argv[1]
 coord_map = sub_dir+'/coord_map'
 table = sys.argv[2]
 
+print("Rewriting Table ... ... ...")
 # Read json
 with open(table) as f:
 	data = json.load(f)
@@ -25,8 +26,8 @@ for i in range(0, len(data)):
 	if key in c_map.keys():
 		data[i]['coord'] = c_map[key]
 	else:
-		print 'Not found ', data[i]['name']
+		print('Not found ', data[i]['name'])
 
-with open(sub_dir+'/parcellationTable.json', 'wb') as outFile:
+with open(sub_dir+'/parcellationTable.json', 'w') as outFile:
 	json.dump(data, outFile)
 

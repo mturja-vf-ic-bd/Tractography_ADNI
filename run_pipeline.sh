@@ -2,9 +2,11 @@
 
 subDir=$1
 debug=$2
-cmake EditLabel
-make -C EditLabel/ -j4
-cmake EditParcellationTable
-make -C EditParcellationTable/ -j4
-EditLabel/./relabelVtk.sh $subDir EditLabel $debug
-EditParcellationTable/./run.sh $subDir EditParcellationTable $debug
+current_Dir=`pwd`
+echo "In directory: $current_Dir"
+cmake $current_Dir/EditLabel
+make -C $current_Dir/EditLabel/ -j4
+cmake $current_Dir/EditParcellationTable
+make -C $current_Dir/EditParcellationTable/ -j4
+$current_Dir/EditLabel/./relabelVtk.sh $subDir $current_Dir/EditLabel $debug
+$current_Dir/EditParcellationTable/./run.sh $subDir $current_Dir/EditParcellationTable $debug

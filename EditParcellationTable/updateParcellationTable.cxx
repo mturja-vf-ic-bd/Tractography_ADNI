@@ -23,6 +23,7 @@
 
 int main(int argc, char *argv[])
 {
+	cout << "Updating Parcellation Table ... ... ..." << endl;
     // Input
     // Verify input arguments
     if ( argc != 4 )
@@ -35,7 +36,7 @@ int main(int argc, char *argv[])
     std::string surface = strdup(argv[1]);              // vtk file of the surface
     std::string target = strdup(argv[2]);
     std::string targetFile = target + strdup("/coord_map");
-    int debug = std::stoi(strdup(argv[3]));
+    int debug = atoi(strdup(argv[3]));
 
     // Read file
     vtkSmartPointer<vtkPolyDataReader> polyIn = vtkSmartPointer<vtkPolyDataReader>::New();

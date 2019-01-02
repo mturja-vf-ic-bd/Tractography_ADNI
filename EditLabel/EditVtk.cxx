@@ -1,3 +1,4 @@
+#define _GLIBCXX_USE_C99 1
 #include <string.h>
 #include <string>
 #include <iostream>
@@ -22,9 +23,10 @@
 
 int main(int argc, char *argv[])
 {
+	cout << "Relabelling VTK ... ... ..." << endl;
     std::string inputFilenames[2] = {strdup(argv[1]), strdup(argv[2])}; //lh_white_matter.vtk, rh_white_matter.vtk
     std::string outputFilename = strdup(argv[3]); //combinedvtk
-    int debug = std::stoi(strdup(argv[4]));
+    int debug = atoi(strdup(argv[4]));
     std::string mapFiles[] = {"EditLabel/map_lh.txt", "EditLabel/map_rh.txt"}; //map files
     std::map<int, int> m;
     std::map<int, int> m_flag;
