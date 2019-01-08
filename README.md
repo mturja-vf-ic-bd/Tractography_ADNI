@@ -51,8 +51,10 @@ Add image here
    ./run_pipeline.sh <subject_dir> <debug>
 ```
 Copy all the scripts to <output_dir>
-To run bedpostx: ```./submit_job.sh (<subject_name1>) (<subject_name2>) ...```
+To run bedpostx:
+ ```./submit_job.sh (<subject_name1>) (<subject_name2>) ...```
 If no subject_name is given, bedpostx is run for all the subjects.
 
-To run tractography: ```./submit_job_trac.sh (<subject_name1>) (<subject_name2>) ... ```
+To run tractography: 
+```./submit_job_trac.sh (<subject_name1>) (<subject_name2>) ... ```
 If no subject_name is given, bedpostx is run for all the subjects.
