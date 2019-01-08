@@ -1,0 +1,46 @@
+/var/spool/slurmd/job6175772
+rm: cannot remove ‘/stdout.out’: No such file or directory
+rm: cannot remove ‘/stderr.err’: No such file or directory
+Parameters : S100790 /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/S100790_DWI.nrrd /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/S100790_T1_regDTI.nrrd /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/S100790_resampled_brain_mask.nrrd /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/parcellationTable.json /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/combined.InnerSurface_relabeled.vtk /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/combined.InnerSurface_relabeled.vtk /proj/NIRAL/users/mturja/TractographyScript 
+Tool is running .. 
+mkdir: cannot create directory ‘/S100790’: Permission denied
+cp: cannot create regular file ‘/S100790/parcellationTable.json’: No such file or directory
+Wait 2m ...
+End wait 2m
+Create Diffusion data ...
+mkdir: cannot create directory ‘/S100790/Diffusion’: No such file or directory
+DWIConvert : nodif_brain_mask.nii.gz
+** ERROR (nifti_image_write_hdr_img2): cannot open output file '/S100790/Diffusion/nodif_brain_mask.nii.gz'
+No gradient vectors found in /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/S100790_resampled_brain_mask.nrrd
+DWIConvert : data.nii.gz
+** ERROR (nifti_image_write_hdr_img2): cannot open output file '/S100790/Diffusion/data.nii.gz'
+Failed to write /S100790/Diffusion/bvecs
+Create Diffusion data done !
+ERROR_PIPELINE_PROBTRACKBRAINCONNECTIVITY
+Run bedpostx .../S100790/Diffusion -n 2
+bedpostx /S100790/Diffusion -n 2
+subjectdir is /S100790/Diffusion
+subject directory  not found
+Bedpostx done !
+mkdir: cannot create directory ‘/S100790/OutputSurfaces_overlapping’: No such file or directory
+/var/spool/slurmd/job6175772/slurm_script: line 100: cd: /S100790/OutputSurfaces_overlapping: No such file or directory
+/proj/NIRAL/tools/./ExtractLabelSurfaces --extractPointData --translateToLabelNumber --labelNameInfo /S100790/OutputSurfaces_overlapping/labelListName.txt --labelNumberInfo  /S100790/OutputSurfaces_overlapping/labelListNumber.txt --useTranslationTable --labelTranslationTable /S100790/parcellationTable.json -a label --vtkLabelFile /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/combined.InnerSurface_relabeled.vtk --createSurfaceLabelFiles --vtkFile /pine/scr/m/t/mturja/DTI_FS_CoregData/S100790/DTI/combined.InnerSurface_relabeled.vtk --overlapping --ignoreLabel "0" 
+Run ExtractPointData, TranslateToLabelNumber and CreateSurfaceLabelFiles tools ...
+
+Start ExtractPointData...
+Array name : label
+Number of components : 1
+Unable to open file
+Start TranslateToLabelNumber...
+Use a translation table : /S100790/parcellationTable.json
+Cannot open the json translation table file 
+Error of interpretation of the TableTranslation - check if : json file exists, or TableTranslation file is correct, or if can be open
+Start CreateSurfaceLabelFiles...
+Label 0 is ignored
+Cannot open the json translation table file 
+Cannot open the label file2 
+Done !
+ERROR_PIPELINE_PROBTRACKBRAINCONNECTIVITY
+python /writeSeedList.py S100790 _overlapping /S100790/parcellationTable.json 152
+python: can't open file '/writeSeedList.py': [Errno 2] No such file or directory
+ERROR_PIPELINE_PROBTRACKBRAINCONNECTIVITY
