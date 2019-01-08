@@ -43,8 +43,9 @@ The connectivity matrix is named ```fdt_network_matrix``` and it resides in ```N
 Add image here
 
 ## Installation
-```export pn=<subject_dir>
-   export nr=<output_dir>
+```
+    export pn=<subject_dir>
+    export nr=<output_dir>
 ```
 ```git clone https://github.com/mturja-vf-ic-bd/Tractography_ADNI.git
    cd Tractography_ADNI
