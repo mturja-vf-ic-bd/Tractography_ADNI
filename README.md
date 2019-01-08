@@ -47,9 +47,10 @@ Add image here
 export pn=<subject_dir>
 export nr=<output_dir>
 ```
-```git clone https://github.com/mturja-vf-ic-bd/Tractography_ADNI.git
-   cd Tractography_ADNI
-   ./run_pipeline.sh <subject_dir> <debug>
+```
+git clone https://github.com/mturja-vf-ic-bd/Tractography_ADNI.git
+cd Tractography_ADNI
+./run_pipeline.sh <subject_dir> <debug>
 ```
 Copy all the scripts to <output_dir>
 To run bedpostx:
@@ -64,3 +65,8 @@ To run tractography:
 ./submit_job_trac.sh (<subject_name1>) (<subject_name2>) ... 
 ```
 If no subject_name is given, bedpostx is run for all the subjects.
+
+Utility scripts:
+``` nFinisheds.sh ``` prints all the subjects that has been processed.
+``` checkStatus.sh ``` prints status of the subjects.
+``` checkFiles.sh ``` checks if the <subject_dir> has all the necessary files.
