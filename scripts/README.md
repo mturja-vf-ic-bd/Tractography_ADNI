@@ -1,6 +1,6 @@
 ## QC of AD-Data
 
-Three QC's are added. There are in total 148*148 connections in each connectome(subject). Each QC finds number of outlier connections among these connections.
+Three QC's are added. There are in total 148*148 connections in each connectome(subject). Each QC finds the number of outlier connections among these connections.
 If this number exceeds a certain limit, the connectome is marked as an outlier subject. The definition of a outlier connection is different for each QC.
 
 ### QC1:
