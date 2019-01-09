@@ -25,8 +25,8 @@ Fisrt two steps are same as QC1
 5. Result: 58 outlier found.
 
 ### Plot:
-Plot for three QC's.
-xAxis -> acceptable percentage of outlier connections for a subject (outlier percentage).
-yAxis -> Number of outlier subjects.
+Plot for three QC's.  
+xAxis -> acceptable percentage of outlier connections for a subject (outlier percentage).  
+yAxis -> Number of outlier subjects.  
 
 ![QC Plot](https://github.com/mturja-vf-ic-bd/Tractography_ADNI/blob/master/scripts/qc.png)
