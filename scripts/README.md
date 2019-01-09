@@ -12,6 +12,7 @@ If this number exceeds a certain limit, the connectome is marked as an outlier s
 
 ### QC2:
 Fisrt two steps are same as QC1
+
 3. Computes average standard deviation for each connections for every subject.
 4. If the standard deviation for a connection is 4 times more than the average, it is marked as an outlier connection.
 5. If a subject has more than 10% outlier connection (outlier percentage) of the total connections then it is marked as an outlier.
