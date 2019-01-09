@@ -11,17 +11,17 @@ If this number exceeds a certain limit, the connectome is marked as an outlier s
 5. Result: No outlier subject found.
 
 ### QC2:
-Fisrt two steps are same as QC1
+First two steps are same as QC1
 
-3. Computes average standard deviation for each connections for every subject.
+3. Computes average standard deviation for each connections across subjects.
 4. If the standard deviation for a connection is 4 times more than the average, it is marked as an outlier connection.
 5. If a subject has more than 10% outlier connection (outlier percentage) of the total connections then it is marked as an outlier.
 6. Result: No outlier subject found.
 
 ### QC3:
-1. Find mean of the connectomes.
-2. Binarize mean and all the other connectomes.
-3. Compare every connectome with mean.
+1. Find the mean of the connectomes.
+2. Binarize the mean and all the other connectomes.
+3. Compare every connectome with the mean.
 4. If a subject has more than 30% mismatch (outlier percentage), it is marked as outlier.
 5. Result: 58 outlier found.
 
