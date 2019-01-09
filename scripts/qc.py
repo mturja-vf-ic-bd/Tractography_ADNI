@@ -5,6 +5,7 @@ import numpy as np
 import util
 import pickle
 import matplotlib.pyplot as plt
+from matplotlib import pylab
 from pprint import pprint
 
 def get_elementlist_from_matlist(mat_list):
@@ -62,9 +63,21 @@ def qc3(mat_list, expected_outlier_percent):
 
     return count
 
+def qc4(mat_list, expected_outlier_percent):
+    dim = len(mat_list[0])
+    threshold = 0.3
+    distances = []
+    for i in range(0, len(mat_list)):
+        d = []
+        for j in range(0, len(mat_list)):
+            if i != j:
+                d.append(((mat_list[i] > threshold) != (mat_list[j] > threshold)).sum())
+        distances.append(np.percentile(d, 0.5))
+
+    return (np.asarray(distances) > expected_outlier_percent * dim * dim).sum()
 if __name__ == '__main__':
     directory = 'AD-Data'
-    #mat_list = util.readMatricesFromDirectory(join(os.pardir, directory))
+    mat_list = util.readMatricesFromDirectory(join(os.pardir, directory))
     threshold = [i/10 for i in range(0, 10)]
 
     try:
@@ -91,23 +104,41 @@ if __name__ == '__main__':
             qc3_outlier_count.append(qc3(mat_list, t))
         pickle.dump(qc3_outlier_count, open('qc3_outlier_count.p', 'wb'))
 
-    plt.subplot(1, 3, 1)
+    try:
+        qc4_outlier_count = pickle.load(open('qc4_outlier_count.p', 'rb'))
+    except FileNotFoundError:
+        qc4_outlier_count = []
+        for t in threshold:
+            qc4_outlier_count.append(qc4(mat_list, t))
+        pickle.dump(qc1_outlier_count, open('qc4_outlier_count.p', 'wb'))
+
+    print("Done !!!")
+    plt.subplot(2, 2, 1)
     plt.title("QC1")
     plt.xlabel("outlier percentage")
     plt.ylabel("number of outlier")
+    plt.subplots_adjust(bottom=0.5)
     plt.plot(threshold, qc1_outlier_count)
-    plt.subplot(1, 3, 2)
+    plt.subplot(2, 2, 2)
     plt.title("QC2")
     plt.xlabel("outlier percentage")
     plt.ylabel("number of outlier")
+    plt.subplots_adjust(bottom=0.5)
     plt.plot(threshold, qc2_outlier_count)
-    plt.subplot(1, 3, 3)
+    plt.subplot(2, 2, 3)
     plt.title("QC3")
     plt.xlabel("outlier percentage")
     plt.ylabel("number of outlier")
     plt.plot(threshold, qc3_outlier_count)
-    plt.figure().savefig('qc.png')
+    plt.subplot(2, 2, 4)
+    plt.title("QC4")
+    plt.xlabel("outlier percentage")
+    plt.ylabel("number of outlier")
+    plt.plot(threshold, qc4_outlier_count)
+
+    pylab.savefig('qc.png')
     plt.show()
+
 
 
 
