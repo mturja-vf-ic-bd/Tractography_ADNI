@@ -1,6 +1,6 @@
 ## QC for AD-Data
 
-Three QC's are added. There are in total 148*148 connections in each connectome(subject). Each QC finds the number of outlier connections among these connections.
+Four QC's are added. There are in total 148*148 connections in each connectome(subject). Each QC finds the number of outlier connections among these connections.
 If this number exceeds a certain limit, the connectome is marked as an outlier subject. The definition of a outlier connection is different for each QC.
 
 ### QC1:
@@ -25,8 +25,14 @@ First two steps are same as QC1
 4. If a subject has more than 30% mismatch (outlier percentage), it is marked as outlier.
 5. Result: 58 outlier found.
 
+### QC4:
+1. Binarize the connectomes.
+2. Compute median distances for every connectomes. Distance between two connectomes is just the number of mismatched connections. For every subject, take the median of the distances from this connectome to every other connectomes.
+4. If this distance is more than 20% of the total connections (outlier percentage), it is marked as outlier.
+5. Result: No outlier found.
+
 ### Plot:
-Plot for three QC's.  
+Plot for four QC's.  
 xAxis -> acceptable percentage of outlier connections for a subject (outlier percentage).  
 yAxis -> Number of outlier subjects.  
 
