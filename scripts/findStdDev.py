@@ -36,9 +36,7 @@ for folder in folders:
 	std.append(np.average(std_dev))
 	mean.append(np.average(mean_ind))
 
-#normalized_std = [x/y for x, y in zip(std, mean)]
-normalized_std = std
-print normalized_std
+normalized_std = [x/y for x, y in zip(std, mean)]
 plt.xlabel('#seeds')
 plt.ylabel('standard deviation')
 plt.plot(sorted(ind), normalized_std)

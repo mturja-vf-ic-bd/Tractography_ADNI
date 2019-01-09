@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0859fee-1ca3-4d9a-b908-5e5686a971b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/circle_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/CirclePlot/circle_plot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/main.R" beforeDir="false" afterPath="$PROJECT_DIR$/CirclePlot/main.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_1_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_7_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_8_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_7_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_8_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_1_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_7_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_8_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_1_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_7_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_8_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_0_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_1_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_7_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_8_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_1_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_7_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_8_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_10_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_1_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_2_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_3_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_4_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_5_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_6_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_9_fdt_network_matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/findStdDev.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/findStdDev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/plotMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/plotMatrix.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ADNI_processing$std_mean_matrix.coverage" NAME="std_mean_matrix Coverage Results" MODIFIED="1545973569373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/qc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding>
+                <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/std_mean_matrix.py" />
+        <option value="$PROJECT_DIR$/scripts/findStdDev.py" />
+        <option value="$PROJECT_DIR$/CirclePlot/main.R" />
+        <option value="$PROJECT_DIR$/scripts/plotMatrix.py" />
+        <option value="$PROJECT_DIR$/scripts/util.py" />
+        <option value="$PROJECT_DIR$/scripts/qc.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.qc">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ADNI_processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADNI_processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/qc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="std_mean_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADNI_processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.qc" />
+        <item itemvalue="Python.std_mean_matrix" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0859fee-1ca3-4d9a-b908-5e5686a971b0" name="Default Changelist" comment="" />
+      <created>1545786585113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545786585113</updated>
+      <workItem from="1545969839431" duration="4265000" />
+      <workItem from="1546049371410" duration="285000" />
+      <workItem from="1546986301838" duration="7830000" />
+      <workItem from="1546995365269" duration="4355000" />
+      <workItem from="1547001691511" duration="4094000" />
+      <workItem from="1547011285737" duration="441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21270000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1339381" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31907895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Remote Host" order="5" />
+      <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="6" sideWeight="0.503268" side_tool="true" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.32977587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/gnmat.txt" />
+    <entry file="file://$PROJECT_DIR$/CirclePlot/CirclePlot.R">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CirclePlot/main.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/plotMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/findStdDev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S90388_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S91293_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S91484_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S92417_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S92816_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S93368_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S93429_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S93658_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S94011_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S94738_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD-Data/S95880_fdt_network_matrix">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/qc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
