@@ -20,15 +20,15 @@ First two steps are same as QC1
 
 ### QC3:
 1. Find the mean of the connectomes.
-2. Binarize the mean and all the other connectomes.
+2. Binarize the mean and all the other connectomes. (threshold = 0.03)
 3. Compare every connectome with the mean.
-4. If a subject has more than 30% mismatch (outlier percentage), it is marked as outlier.
-5. Result: 58 outlier found.
+4. If a subject has more than 10% mismatch (outlier percentage), it is marked as outlier.
+5. Result: No outlier found.
 
 ### QC4:
 1. Binarize the connectomes.
 2. Compute median distances for every connectomes. Distance between two connectomes is just the number of mismatched connections. For every subject, take the median of the distances from this connectome to every other connectomes.
-4. If this distance is more than 20% of the total connections (outlier percentage), it is marked as outlier.
+4. If this distance is more than 10% of the total connections (outlier percentage), it is marked as outlier.
 5. Result: No outlier found.
 
 ### Plot:
