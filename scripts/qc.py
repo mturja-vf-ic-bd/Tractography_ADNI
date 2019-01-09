@@ -48,7 +48,7 @@ def qc2(mat_list, expected_outlier_percent):
 
 
 def qc3(mat_list, expected_outlier_percent):
-    threshold = 0.02
+    threshold = 0.03
 
     mean, std_dev = util.findMeanAndStd(mat_list)
     mean = mean > threshold
@@ -65,7 +65,7 @@ def qc3(mat_list, expected_outlier_percent):
 
 def qc4(mat_list, expected_outlier_percent):
     dim = len(mat_list[0])
-    threshold = 0.3
+    threshold = 0.03
     distances = []
     for i in range(0, len(mat_list)):
         d = []
@@ -75,12 +75,16 @@ def qc4(mat_list, expected_outlier_percent):
         distances.append(np.percentile(d, 0.5))
 
     return (np.asarray(distances) > expected_outlier_percent * dim * dim).sum()
+
+
 if __name__ == '__main__':
     directory = 'AD-Data'
     mat_list = util.readMatricesFromDirectory(join(os.pardir, directory))
     threshold = [i/10 for i in range(0, 10)]
-
+    enforce = 1
     try:
+        if enforce == 1:
+            raise FileNotFoundError
         qc1_outlier_count = pickle.load(open('qc1_outlier_count.p', 'rb'))
     except FileNotFoundError:
         qc1_outlier_count = []
@@ -89,6 +93,8 @@ if __name__ == '__main__':
         pickle.dump(qc1_outlier_count, open('qc1_outlier_count.p', 'wb'))
 
     try:
+        if enforce == 1:
+            raise FileNotFoundError
         qc2_outlier_count = pickle.load(open('qc2_outlier_count.p', 'rb'))
     except FileNotFoundError:
         qc2_outlier_count = []
@@ -97,6 +103,8 @@ if __name__ == '__main__':
         pickle.dump(qc2_outlier_count, open('qc2_outlier_count.p', 'wb'))
 
     try:
+        if enforce == 1:
+            raise FileNotFoundError
         qc3_outlier_count = pickle.load(open('qc3_outlier_count.p', 'rb'))
     except FileNotFoundError:
         qc3_outlier_count = []
@@ -105,6 +113,8 @@ if __name__ == '__main__':
         pickle.dump(qc3_outlier_count, open('qc3_outlier_count.p', 'wb'))
 
     try:
+        if enforce == 1:
+            raise FileNotFoundError
         qc4_outlier_count = pickle.load(open('qc4_outlier_count.p', 'rb'))
     except FileNotFoundError:
         qc4_outlier_count = []

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0859fee-1ca3-4d9a-b908-5e5686a971b0" name="Default Changelist" comment="" />
+    <list default="true" id="b0859fee-1ca3-4d9a-b908-5e5686a971b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/qc.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/qc.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/qc3_outlier_count.p" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc3_outlier_count.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/util.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/qc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="207">
+              <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -26,15 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/qc.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="222">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -202,12 +203,12 @@
       <workItem from="1546995365269" duration="4355000" />
       <workItem from="1547001691511" duration="4094000" />
       <workItem from="1547011285737" duration="441000" />
-      <workItem from="1547050348023" duration="10807000" />
+      <workItem from="1547050348023" duration="12461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32077000" />
+    <option name="totallyTimeSpent" value="33731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,7 +226,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31907895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -234,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286908" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3286908" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -245,7 +246,7 @@
       <window_info anchor="right" id="Remote Host" order="5" />
       <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="6" sideWeight="0.503268" side_tool="true" visible="true" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.47833243" />
+      <window_info active="true" anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.47833243" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,23 +317,23 @@
     <entry file="file://$PROJECT_DIR$/AD-Data/S95880_fdt_network_matrix">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/qc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="222">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/qc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/qc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="207">
+          <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
