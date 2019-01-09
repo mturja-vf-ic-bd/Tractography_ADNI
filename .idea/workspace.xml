@@ -202,12 +202,12 @@
       <workItem from="1546995365269" duration="4355000" />
       <workItem from="1547001691511" duration="4094000" />
       <workItem from="1547011285737" duration="441000" />
-      <workItem from="1547050348023" duration="10557000" />
+      <workItem from="1547050348023" duration="10807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31827000" />
+    <option name="totallyTimeSpent" value="32077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,13 +220,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="-4" width="1869" height="1204" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13549095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286908" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31907895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -235,7 +234,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286908" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -246,7 +245,7 @@
       <window_info anchor="right" id="Remote Host" order="5" />
       <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="6" sideWeight="0.503268" side_tool="true" visible="true" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info active="true" anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.47833243" />
+      <window_info anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.47833243" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
