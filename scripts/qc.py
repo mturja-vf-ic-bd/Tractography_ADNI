@@ -21,7 +21,6 @@ def get_elementlist_from_matlist(mat_list):
 
 def qc1(mat_list, expected_outlier_percent):
     element_list = get_elementlist_from_matlist(mat_list)
-    outlier_percent = 10
     nCon, nSub = element_list.shape
     outlier_connections = element_list > 2
     outlier_connections = (outlier_connections.sum(axis=0) / nCon) > expected_outlier_percent
@@ -35,7 +34,6 @@ def qc2(mat_list, expected_outlier_percent):
     avg = element_list.mean(axis=1)
 
     threshold_factor = 4
-    expected_percent_outlier = 10
     nCon, nSub = element_list.shape
 
     count = 0
