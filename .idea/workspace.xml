@@ -2,79 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0859fee-1ca3-4d9a-b908-5e5686a971b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CirclePlot/circle_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/CirclePlot/circle_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CirclePlot/main.R" beforeDir="false" afterPath="$PROJECT_DIR$/CirclePlot/main.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_1_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_7_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_8_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1000_fdt_network_matrix/1000_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_7_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_8_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/100_fdt_network_matrix/100_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_1_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_7_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_8_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/1500_fdt_network_matrix/1500_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_1_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_7_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_8_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/2000_fdt_network_matrix/2000_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_0_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_1_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_7_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_8_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/3000_fdt_network_matrix/3000_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_1_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_7_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_8_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/300_fdt_network_matrix/300_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_10_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_1_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_2_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_3_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_4_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_5_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_6_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrices/500_fdt_network_matrix/500_9_fdt_network_matrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/findStdDev.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/findStdDev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/plotMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/plotMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ADNI_processing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADNI_processing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/qc.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/qc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="178">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -102,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="675">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -148,13 +79,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tractography_ADNI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tractography_ADNI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tractography_ADNI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tractography_ADNI" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,11 +202,12 @@
       <workItem from="1546995365269" duration="4355000" />
       <workItem from="1547001691511" duration="4094000" />
       <workItem from="1547011285737" duration="441000" />
+      <workItem from="1547050348023" duration="5888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21270000" />
+    <option name="totallyTimeSpent" value="27158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,9 +219,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="51" y="-4" width="1869" height="1204" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1339381" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13549095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +234,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3286908" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -297,7 +245,7 @@
       <window_info anchor="right" id="Remote Host" order="5" />
       <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="6" sideWeight="0.503268" side_tool="true" visible="true" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.32977587" />
+      <window_info active="true" anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.6900713" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/qc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="178">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
@@ -380,7 +328,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="675">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
