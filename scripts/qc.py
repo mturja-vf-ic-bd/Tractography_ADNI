@@ -10,6 +10,12 @@ from pprint import pprint
 
 mean_total_connections = 5000
 
+def find_outlier(list):
+    list = np.asarray(list)
+    list_std = np.std(list)
+    list_mean = np.mean(list)
+    list = abs(list - list_mean)/list_std > 3
+    return list
 
 def get_elementlist_from_matlist(mat_list):
     mean, std_dev = util.findMeanAndStd(mat_list)
@@ -23,51 +29,42 @@ def get_elementlist_from_matlist(mat_list):
     return element_list
 
 
-def qc1(mat_list, expected_outlier_percent):
+def qc1(mat_list):
     element_list = get_elementlist_from_matlist(mat_list)
-    nCon, nSub = element_list.shape
     outlier_connections = element_list > 2
-    outlier_connections = (outlier_connections.sum(axis=0) / mean_total_connections) > expected_outlier_percent
-    count = outlier_connections.sum()
+    outlier_connections = outlier_connections.sum(axis=0)
+    count = find_outlier(outlier_connections).sum()
 
     return count
 
 
-def qc2(mat_list, expected_outlier_percent):
+def qc2(mat_list):
     element_list = get_elementlist_from_matlist(mat_list)
     avg = element_list.mean(axis=1)
 
-    threshold_factor = 4
+    threshold_factor = 3
     nCon, nSub = element_list.shape
 
-    count = 0
+    outlier_count = []
     for i in range(0, nSub):
         outlier_connections = (element_list[:, i] - threshold_factor * avg > 0)
-        percent_outlier = outlier_connections.sum() / mean_total_connections
-        if percent_outlier > expected_outlier_percent:
-            count = count + 1
+        outlier_count.append(outlier_connections.sum())
 
-    return count
+    return find_outlier(outlier_count).sum()
 
 
-def qc3(mat_list, expected_outlier_percent):
-    threshold = 0.1
-
+def qc3(mat_list, threshold):
     mean, std_dev = util.findMeanAndStd(mat_list)
     mean = mean > threshold
-    expected_outlier = expected_outlier_percent * mean_total_connections# % of the connections
-    count = 0
+    outlier_count = []
     for i in range(0, len(mat_list)):
         nOutlier = ((mat_list[i] > threshold) != mean).sum()
+        outlier_count.append(nOutlier)
 
-        if nOutlier > expected_outlier:
-            count = count + 1
+    return find_outlier(outlier_count).sum()
 
-    return count
-
-def qc4(mat_list, expected_outlier_percent):
+def qc4(mat_list, threshold):
     distances = []
-    threshold = 0.1
     for i in range(0, len(mat_list)):
         d = []
         for j in range(0, len(mat_list)):
@@ -75,55 +72,51 @@ def qc4(mat_list, expected_outlier_percent):
                 d.append(((mat_list[i] > threshold) != (mat_list[j] > threshold)).sum())
         distances.append(np.percentile(d, 0.5))
 
-    return (np.asarray(distances) > expected_outlier_percent * mean_total_connections).sum()
+    return find_outlier(distances).sum()
 
 
 if __name__ == '__main__':
     directory = 'AD-Data'
     mat_list = util.readMatricesFromDirectory(join(os.pardir, directory))
-    threshold = [i/10 for i in range(0, 10)]
-    enforce = 1
-    try:
-        if enforce == 1:
-            raise FileNotFoundError
-        qc1_outlier_count = pickle.load(open('qc1_outlier_count.p', 'rb'))
-    except FileNotFoundError:
-        qc1_outlier_count = []
-        for t in threshold:
-            qc1_outlier_count.append(qc1(mat_list, t))
-        pickle.dump(qc1_outlier_count, open('qc1_outlier_count.p', 'wb'))
+    '''
+    print('QC1 Outlier Count : ',
+          qc1(mat_list))
+    print('QC2 Outlier Count : ',
+          qc2(mat_list))
+    print('QC3 Outlier Count : ',
+          qc3(mat_list))
+    print('QC4 Outlier Count : ',
+          qc4(mat_list))
+          '''
 
+    t = [i/20 for i in range(0, 20)]
     try:
-        if enforce == 1:
-            raise FileNotFoundError
-        qc2_outlier_count = pickle.load(open('qc2_outlier_count.p', 'rb'))
-    except FileNotFoundError:
-        qc2_outlier_count = []
-        for t in threshold:
-            qc2_outlier_count.append(qc2(mat_list, t))
-        pickle.dump(qc2_outlier_count, open('qc2_outlier_count.p', 'wb'))
+        qc3_outlier = pickle.load(open('qc3_outlier.p', 'rb'))
+        qc4_outlier = pickle.load(open('qc4_outlier.p', 'rb'))
+    except:
+        qc3_outlier = []
+        qc4_outlier = []
+        for i in t:
+            qc3_outlier.append(qc3(mat_list, i))
+            qc4_outlier.append(qc4(mat_list, i))
 
-    try:
-        if enforce == 1:
-            raise FileNotFoundError
-        qc3_outlier_count = pickle.load(open('qc3_outlier_count.p', 'rb'))
-    except FileNotFoundError:
-        qc3_outlier_count = []
-        for t in threshold:
-            qc3_outlier_count.append(qc3(mat_list, t))
-        pickle.dump(qc3_outlier_count, open('qc3_outlier_count.p', 'wb'))
-
-    try:
-        if enforce == 1:
-            raise FileNotFoundError
-        qc4_outlier_count = pickle.load(open('qc4_outlier_count.p', 'rb'))
-    except FileNotFoundError:
-        qc4_outlier_count = []
-        for t in threshold:
-            qc4_outlier_count.append(qc4(mat_list, t))
-        pickle.dump(qc1_outlier_count, open('qc4_outlier_count.p', 'wb'))
-
+    pickle.dump(qc3_outlier, open('qc3_outlier.p', 'wb'))
+    pickle.dump(qc4_outlier, open('qc4_outlier.p', 'wb'))
     print("Done !!!")
+
+    plt.subplot(1, 2, 1)
+    plt.title("QC3")
+    plt.xlabel("threshold")
+    plt.ylabel("number of outlier")
+    plt.plot(t, qc3_outlier)
+    plt.subplot(1, 2, 2)
+    plt.title("QC4")
+    plt.xlabel("threshold")
+    plt.ylabel("number of outlier")
+    plt.plot(t, qc4_outlier)
+    pylab.savefig('qc.png')
+    plt.show()
+    '''
     plt.subplot(2, 2, 1)
     plt.title("QC1")
     plt.xlabel("outlier percentage")
@@ -149,6 +142,7 @@ if __name__ == '__main__':
 
     pylab.savefig('qc.png')
     plt.show()
+    '''
 
 
 
