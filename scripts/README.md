@@ -36,7 +36,7 @@ First two steps are same as QC1
 5. Result: 0 outlier subject found for threshold 0.1.
 
 ### Plot:
-Plot for four QC's.  
+Plot for four QC3 and QC4 for different threshold values that are used to binarize the connectome.  
 xAxis -> acceptable percentage of outlier connections for a subject (outlier percentage).  
 yAxis -> Number of outlier subjects.  
 
