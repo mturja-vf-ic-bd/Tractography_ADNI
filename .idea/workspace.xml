@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0859fee-1ca3-4d9a-b908-5e5686a971b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ADNI_processing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADNI_processing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/CirclePlot.R" beforeDir="false" afterPath="$PROJECT_DIR$/CirclePlot/CirclePlot.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/circle_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/circle_plot_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/circle_plot_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CirclePlot/main.R" beforeDir="false" afterPath="$PROJECT_DIR$/CirclePlot/main.R" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/qc.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/qc.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/qc3_outlier_count.p" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/qc3_outlier_count.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/util.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/qc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
+            <state relative-caret-position="-119">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="35" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -31,14 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -68,9 +70,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="x" value="-110" />
+    <option name="y" value="27" />
+    <option name="width" value="1401" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -80,23 +83,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Tractography_ADNI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tractography_ADNI" type="462c0819:PsiDirectoryNode" />
+              <item name="ADNI_processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADNI_processing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tractography_ADNI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tractography_ADNI" type="462c0819:PsiDirectoryNode" />
+              <item name="ADNI_processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADNI_processing" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,11 +207,13 @@
       <workItem from="1547001691511" duration="4094000" />
       <workItem from="1547011285737" duration="441000" />
       <workItem from="1547050348023" duration="12461000" />
+      <workItem from="1547098916717" duration="146000" />
+      <workItem from="1549504045670" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33731000" />
+    <option name="totallyTimeSpent" value="34769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,9 +225,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1869" height="1204" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13549095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14034152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,7 +241,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.33004385" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -244,9 +250,9 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="Remote Host" order="5" />
-      <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="6" sideWeight="0.503268" side_tool="true" visible="true" weight="0.32977587" />
+      <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="6" sideWeight="0.058919802" side_tool="true" visible="true" weight="0.49573106" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info active="true" anchor="right" id="SciView" order="8" sideWeight="0.49673203" visible="true" weight="0.47833243" />
+      <window_info anchor="right" id="SciView" order="8" sideWeight="0.9410802" visible="true" weight="0.49573106" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,23 +326,20 @@
     <entry file="file://$PROJECT_DIR$/scripts/qc.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/util.py">
+    <entry file="file://$PROJECT_DIR$/scripts/qc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="-119">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="35" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/qc.py">
+    <entry file="file://$PROJECT_DIR$/scripts/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
         </state>
       </provider>
     </entry>

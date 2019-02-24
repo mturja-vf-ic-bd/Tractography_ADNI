@@ -7,7 +7,7 @@ library(rlist)
 library(RColorBrewer)
 library(wesanderson)
 
-make_circle_plot <- function(my_mat, node_names, lower_edge, upper_edge, my_title = NULL, my_lims = NULL) {
+make_circle_plot <- function(my_mat, node_names, lower_edge, upper_edge, subject, my_title = NULL, my_lims = NULL) {
   	# create a data frame giving the hierarchical structure of the nodes
   	nregions <- 148
   	nclass <- 12
@@ -54,7 +54,7 @@ make_circle_plot <- function(my_mat, node_names, lower_edge, upper_edge, my_titl
 	to <- match( connect$to, vertices$name)
 
 	# Basic usual argument
-	png("circle_plot.png", height = 1080, width = 1080)
+	png(paste(subject, "circle_plot.png", sep="_"), height = 1080, width = 1080)
 	p <- ggraph(mygraph, layout = 'dendrogram', circular = TRUE) + 
 	geom_conn_bundle(data = get_con(from = from, to = to, value=connect$value), aes(colour=value, alpha=value, width=value), tension=0.7) +
 	scale_edge_colour_distiller(type = "div" , palette = "Spectral", limits = c(lower_edge, upper_edge)) +
