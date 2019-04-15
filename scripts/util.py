@@ -14,15 +14,20 @@ def readMatrixFromTextFile(fname):
     a = np.asarray(a)
     return a
 
-def readMatricesFromDirectory(directory):
+
+def readMatricesFromDirectory(directory, normalize=True):
     files = [f for f in os.listdir(directory)]
+    files.sort()
     mat_list = []
     for file in files:
         a = readMatrixFromTextFile(join(directory, file))
-        a /= a.sum(axis=1)
+        if normalize:
+            a /= a.sum(axis=1)
+        else:
+            a /= a.sum()
         mat_list.append(a)
 
-    return mat_list
+    return mat_list, files
 
 def groupElementsOfMatrices(input_mat_list):
     mat_list = []

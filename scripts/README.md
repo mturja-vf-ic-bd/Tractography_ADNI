@@ -7,32 +7,36 @@ If this number exceeds a certain limit, the connectome is marked as an outlier s
 1. Computes mean and standard deviation for every connections across subjects.
 2. For every subject compute how many standard deviation away it's connections are from the mean.
 3. A connection is marked as an outlier if it is more than 2 standard deviation away from the mean.
-4. If a subject has more than 10% outlier connection (outlier percentage) of the total connections then it is marked as an outlier.
-5. Result: No outlier subject found.
+4. The number of outlier connections are computed for every subject.
+5. These numbers are passed to a outlier detector to detect which one is an outlier.
+6. Result: 3 outlier subject found.
 
 ### QC2:
 First two steps are same as QC1
 
 3. Computes average standard deviation for each connections across subjects.
 4. If the standard deviation for a connection is 4 times more than the average, it is marked as an outlier connection.
-5. If a subject has more than 10% outlier connection (outlier percentage) of the total connections then it is marked as an outlier.
-6. Result: No outlier subject found.
+5. The number of outlier connections are computed for every subject.
+6. These numbers are passed to a outlier detector to detect which one is an outlier.
+7. Result: 2 outlier subject found.
 
 ### QC3:
 1. Find the mean of the connectomes.
-2. Binarize the mean and all the other connectomes. (threshold = 0.03)
+2. Binarize the mean and all the other connectomes. (threshold = 0.1)
 3. Compare every connectome with the mean.
-4. If a subject has more than 10% mismatch (outlier percentage), it is marked as outlier.
-5. Result: No outlier found.
+4. The number of outlier connections are computed for every subject.
+5. These numbers are passed to a outlier detector to detect which one is an outlier.
+6. Result: 9 outlier subject found for threshold 0.1.
 
 ### QC4:
 1. Binarize the connectomes.
 2. Compute median distances for every connectomes. Distance between two connectomes is just the number of mismatched connections. For every subject, take the median of the distances from this connectome to every other connectomes.
-4. If this distance is more than 10% of the total connections (outlier percentage), it is marked as outlier.
-5. Result: No outlier found.
+3. The number of outlier connections are computed for every subject.
+4. These numbers are passed to a outlier detector to detect which one is an outlier.
+5. Result: 0 outlier subject found for threshold 0.1.
 
 ### Plot:
-Plot for four QC's.  
+Plot for four QC3 and QC4 for different threshold values that are used to binarize the connectome.  
 xAxis -> acceptable percentage of outlier connections for a subject (outlier percentage).  
 yAxis -> Number of outlier subjects.  
 

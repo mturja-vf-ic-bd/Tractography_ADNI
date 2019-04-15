@@ -7,7 +7,7 @@ from collections import OrderedDict
 
 fileName = "destriux.json" # destriux dataframe from R
 pt_name = "parcellationTable.json" # parcellation table to edit VisuOrder
-matrix_file = argv[1]
+#matrix_file = argv[1]
 
 # Read detrieux to get lobe info
 with open(fileName) as f:
@@ -17,6 +17,7 @@ f.close()
 with open( pt_name) as f:
 	pt = json.load(f)
 f.close()
+'''
 #Read Matrix
 fin = open(matrix_file)
 matrix = []
@@ -24,7 +25,7 @@ for line in fin.readlines():
 	matrix.append( [ float(x) for x in line.split()] )
 
 matrix = np.asarray(matrix)
-
+'''
 # There should be 148 regions.
 if len(pt) == 152:
 	del pt[118], pt[76], pt[42], pt[0] # Delete Medial Wall and Unknown
@@ -52,6 +53,7 @@ with open('parcellationTable_Ordered.json', 'w') as outfile:
     json.dump(pt, outfile)
 outfile.close()
 
+'''
 # This part is to prepare nodes and matrix for circle plot
 # rearrange matrix and nodeNames according to VisuOrder
 order = np.argsort([pt[i]["VisuOrder"] for i in range(0, len(pt))])
@@ -64,4 +66,6 @@ with open(plotDir + '/nodeNames.csv', 'w') as f:
 matrix = matrix[order]
 matrix = matrix[:,order]
 
+
 np.savetxt(plotDir + '/matrix.txt', matrix, fmt="%.3f")
+'''

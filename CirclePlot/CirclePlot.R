@@ -58,7 +58,7 @@ make_circle_plot <- function(my_mat, node_names, lower_edge, upper_edge, subject
 	p <- ggraph(mygraph, layout = 'dendrogram', circular = TRUE) + 
 	geom_conn_bundle(data = get_con(from = from, to = to, value=connect$value), aes(colour=value, alpha=value, width=value), tension=0.7) +
 	scale_edge_colour_distiller(type = "div" , palette = "Spectral", limits = c(lower_edge, upper_edge)) +
-	geom_node_text(aes(x=x*1.02, y=y*1.02, filter = leaf, label=name, angle = angle, hjust=hjust), size=5, alpha=1) + 
+	#geom_node_text(aes(x=x*1.02, y=y*1.02, filter = leaf, label=name, angle = angle, hjust=hjust), size=5, alpha=1) + 
 	theme_void() +
   	expand_limits(x = c(-1.3, 1.3), y = c(-1.3, 1.3)) +
 	geom_node_point(aes(filter = leaf, x = x, y = y, colour=group), size=3)
@@ -68,5 +68,6 @@ make_circle_plot <- function(my_mat, node_names, lower_edge, upper_edge, subject
 	}
 	print(p)
 	dev.off()
+	print(paste('Saved plot in: ', subject, "circle_plot.png"))
 	return(p)
 }
